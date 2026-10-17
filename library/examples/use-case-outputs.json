@@ -1,0 +1,136 @@
+{
+  "note": "Deterministic synthetic examples; rounded for display; not real-world benchmarks.",
+  "regression": {
+    "train_samples": 64,
+    "test_samples": 16,
+    "held_out_mae": 0.128968,
+    "sample_x": [
+      -1.873,
+      -1.557,
+      -1.241,
+      -0.924
+    ],
+    "sample_observed": [
+      -4.641,
+      -3.479,
+      -2.171,
+      -1.27
+    ],
+    "sample_predicted": [
+      -4.475,
+      -3.301,
+      -2.229,
+      -1.257
+    ]
+  },
+  "node_classification": {
+    "labeled_nodes": 8,
+    "held_out_nodes": 52,
+    "held_out_correct": 52,
+    "held_out_accuracy": 1.0,
+    "sample_nodes": [
+      10,
+      45
+    ],
+    "sample_predicted_labels": [
+      0,
+      1
+    ],
+    "sample_class_1_probabilities": [
+      0.002,
+      0.998
+    ]
+  },
+  "forecasting": {
+    "train_end_exclusive": 220,
+    "held_out_targets": 80,
+    "held_out_rmse": 0.061415,
+    "sample_target_indices": [
+      220,
+      221,
+      222,
+      223
+    ],
+    "sample_observed": [
+      0.063,
+      0.274,
+      0.454,
+      0.58
+    ],
+    "sample_predicted": [
+      0.184,
+      0.295,
+      0.434,
+      0.581
+    ]
+  },
+  "graph_filter": {
+    "coefficients": [
+      0.5,
+      -0.5
+    ],
+    "input_values": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "output_values": [
+      0.0,
+      0.25,
+      0.5,
+      0.25,
+      0.0
+    ]
+  },
+  "projection": {
+    "function": "x^2",
+    "family": "chebyshev",
+    "degree": 2,
+    "coefficients": [
+      0.5,
+      0.0,
+      0.5
+    ],
+    "sample_points": [
+      -1.0,
+      -0.5,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "reconstructed_values": [
+      1.0,
+      0.25,
+      0.0,
+      0.25,
+      1.0
+    ],
+    "max_abs_error_on_sample": 0.0
+  },
+  "symmetry": {
+    "system": "A1",
+    "weight": [
+      1
+    ],
+    "points": [
+      0.0,
+      0.125,
+      0.25,
+      0.5
+    ],
+    "C_real": [
+      2.0,
+      1.414,
+      0.0,
+      -2.0
+    ],
+    "S_imag": [
+      0.0,
+      1.414,
+      2.0,
+      0.0
+    ]
+  }
+}
